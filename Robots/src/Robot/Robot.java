@@ -35,5 +35,11 @@ public class Robot {
 		return "Robot [nombre=" + nombre +"\n"+", vida=" + vida +"\n"+
 				", ataque=" + ataque + "\n"+", defensa=" + defensa + "]";
 	}
-	
+	public Robot(String nombre) {
+		
+		this.nombre=nombre;
+		this.vida=100;
+		this.ataque = (int)(Math.random()*20);
+		this.defensa = (int)(Math.random()*100);		
+	}
 }

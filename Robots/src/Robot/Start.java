@@ -4,9 +4,7 @@ public class Start {
 
 	public static void main(String[] args) {
 		
-		Robot Daxter = new Robot();
-		Robot Hommer = new Robot();
-		
+		Robot Daxter = new Robot("Daxter");
+		Robot Hommer = new Robot("Hommer");	
 	}
-
 }
