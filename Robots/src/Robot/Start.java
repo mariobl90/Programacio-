@@ -6,6 +6,7 @@ public class Start {
 		
 		Robot Daxter = new Robot();
 		Robot Hommer = new Robot();
+		
 	}
 
 }
