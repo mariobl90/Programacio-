@@ -103,7 +103,6 @@ public class Robot {
 				}
 				this.ataque = (int) (Math.random() * 20);
 				this.defensa = (int) (Math.random() * 20);
-
 			}
 		}
 	}
