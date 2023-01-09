@@ -2,11 +2,14 @@ package Robot;
 
 public class Start {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args)  {
 		
 		Robot Daxter = new Robot("Daxter");
 		Robot Hommer = new Robot("Hommer");	
-		Daxter.Pelear(Hommer);
-		//DAXTER SIEMPRE PARA LOS GOLPES HAY QUE REVISAR EL CODIGO EN ESA PARTE.
+		System.out.println(Daxter);
+		System.out.println(Hommer);
+		Gimnasio.Pelear(Hommer, Daxter);
+		Robot ganador=Gimnasio.Pelear(Hommer, Daxter);
+		System.out.println(ganador);
 	}
 }
