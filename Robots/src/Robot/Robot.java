@@ -39,7 +39,7 @@ public class Robot {
 	}
 
 	public String toString() {
-		return "Robot [nombre=" + nombre + "\n" + ", vida=" + vida + "\n" + ", ataque=" + ataque + "\n" + ", defensa="
+		return "Robot [nombre=" + nombre + "\n" + " vida=" + vida + "\n" + " ataque=" + ataque + "\n" + " defensa="
 				+ defensa + "]";
 	}
 

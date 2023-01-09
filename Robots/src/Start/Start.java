@@ -1,4 +1,7 @@
-package Robot;
+package Start;
+
+import Robot.Gimnasio;
+import Robot.Robot;
 
 public class Start {
 
