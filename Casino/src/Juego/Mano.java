@@ -19,7 +19,7 @@ public class Mano {
 			int CAleatoria=(int)(Math.random()*54);
 			if(cartas[CAleatoria].getEnBaraja()==true) {
 				cartas[CAleatoria]=cartas[CAleatoria];
-				     
+				           
 				
 			}
 		}
