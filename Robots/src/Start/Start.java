@@ -11,8 +11,9 @@ public class Start {
 		Robot Hommer = new Robot("Hommer");	
 		System.out.println(Daxter);
 		System.out.println(Hommer);
-		Gimnasio.Pelear(Hommer, Daxter);
-		Robot ganador=Gimnasio.Pelear(Hommer, Daxter);
+		Gimnasio GYMFEL=new Gimnasio();
+		GYMFEL.Pelear(Hommer, Daxter);
+		Robot ganador=GYMFEL.Pelear(Hommer, Daxter);
 		System.out.println(ganador);
 	}
 }

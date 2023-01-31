@@ -13,7 +13,7 @@ public class Gimnasio {
 	 * @param robot2 parametro de ayuda que sirve para coger al segundo robot
 	 * @throws InterruptedException
 	 */
-	public static Robot Pelear(Robot robot2, Robot robot1) {
+	public Robot Pelear(Robot robot2, Robot robot1) {
 //		Elegimos de manera aleatoria que robot ataca primero(si es 1 ataca this y si es 2 ataca el otro robot).
 		int robotqueataca = (int) (Math.random() * 2);
 		if (robotqueataca == 0) {
